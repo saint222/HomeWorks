@@ -10,7 +10,7 @@ namespace HomeWorkWeek4ClassOOP
     {
         static void Main(string[] args)
         {
-
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("Here are some words about our farm...");
             Farm farm = new Farm();
             farm.NameOfTheFarm = "Farmswill";
@@ -82,6 +82,7 @@ namespace HomeWorkWeek4ClassOOP
             {
                 Console.WriteLine(buildings[i].BuildingName + " (" + buildings[i].BuildingSquare + " sq.m.; " + buildings[i].AnimalQuantity + " animals);");
             }
+            Console.Beep(600,100);
             Console.ReadLine();
         }
 
